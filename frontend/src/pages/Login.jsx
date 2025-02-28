@@ -20,7 +20,7 @@ function Login() {
 
     try {
       // Send data as an object in the body
-      const response = await axios.post('https://firststep-backend-project.onrender.com/api/v1/users/login', { username, password, email });
+      const response = await axios.post('https://firststep-backend.onrender.com/api/v1/users/login', { username, password, email });
       
       // Set success message (optional)
       alert('Login Successful');
