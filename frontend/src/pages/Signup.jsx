@@ -52,7 +52,7 @@ export const Signup = () => {
 
     try {
       // Send the FormData using POST request
-      const response = await axios.post('https://firststep-backend-project.onrender.com/api/v1/users/register', formDataToSend, {
+      const response = await axios.post('https://firststep-backend.onrender.com/api/v1/users/register', formDataToSend, {
         headers: {
           'Content-Type': 'multipart/form-data',  // Ensure correct content-type
         }
