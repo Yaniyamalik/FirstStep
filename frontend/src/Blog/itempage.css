@@ -1,0 +1,53 @@
+/* Simple Styling for the Blog List */
+.blog-list {
+    margin: 20px;
+  }
+  
+  .blog-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .blog-list li {
+    margin-bottom: 10px;
+  }
+  
+  .blog-details {
+    padding: 20px;
+    background-color: #fbd9d9;
+    color: #FF69B4;
+    border: 10px solid #C71585;
+  }
+ .blog-detail-h1{
+    font-style: italic ;
+    color:#C71585;
+    font-size: 40px;
+    border-bottom: 2px #C71585;
+    
+ } 
+  .blog-detail-img {
+   
+    padding-left: 400px;
+    width: 600px;
+    height:350px ;
+    margin-bottom: 20px;
+  }
+  .blog-detail-img:hover{
+    animation-name: rotate;
+    animation-duration: 0.7s;
+    animation-direction: rotate;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+   
+  
+  .blog-details-header{
+    border-bottom: 5px solid black;
+  }

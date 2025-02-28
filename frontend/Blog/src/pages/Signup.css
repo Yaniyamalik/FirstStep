@@ -1,0 +1,90 @@
+.register{
+    border:10px solid white;
+    padding:50px;
+    background-color:#0077b6;
+    display: flex;
+    align-items: center;
+    justify-content:  space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.register-container{
+    border:5px solid white;
+    border-radius: 14px;
+    height:680px;
+    width:600px;
+    font-size: 20px;
+    border-left: none;
+}
+.username{
+    margin-top: 20px;
+    margin-bottom:20px;
+    align-items:center;
+}
+.password{
+    margin-top: 0;
+    margin-bottom:20px;
+    align-items:center;
+}
+
+.email{
+    margin-top: 0;
+    margin-bottom:20px;
+    align-items:center;
+    
+}
+.fullname{
+    margin-top: 0;
+    margin-bottom:20px;
+    align-items:center;
+}
+.avatar{
+    margin-top: 0;
+    margin-bottom:20px;
+    align-items:center;
+}
+.password{
+    margin-top: 0;
+    margin-bottom:20px;
+    align-items:center;
+}
+
+.register-container input{
+    height:50px;
+    border-radius: 14px;
+    width:300px;
+    background-color: white;
+    color: black;
+}
+.register-container button{
+    height: 50px;
+    width: auto;
+    background-color:#00b4db;
+    border:2px solid white;
+    
+}
+.signup button{
+    height: 50px;
+    width: auto;
+    background-color:#0077b6;   
+}
+.register-container:hover{
+    box-shadow: 10px 10px #03045e;
+    
+}
+.register-container button:hover{
+    background-color: black;
+    transform: scale(1.1);
+   
+}
+.login-img:hover{
+    transform: translateX(100px);
+}
+.register-img{
+    height: 680px;
+    width: 900px;
+    border:5px solid white;
+    border-radius: 14px;
+    padding-right: 20px;
+    border-right: none;
+}

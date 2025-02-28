@@ -1,0 +1,39 @@
+.reso-details {
+    padding: 20px;
+    background-color: #e6e6fa;
+    color: #9370DB;
+    border: 10px solid  #4B0082;
+  }
+ .reso-detail-h1{
+    font-style: italic ;
+    color:#9400D3;
+    font-size: 40px;
+    border-bottom: 2px #4B0082;
+    
+ } 
+  .reso-detail-img {
+   
+    padding-left: 400px;
+    width: 600px;
+    height:350px ;
+    margin-bottom: 20px;
+  }
+  .reso-detail-img:hover{
+    animation-name: rotate;
+    animation-duration: 0.7s;
+    animation-direction: rotate;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+   
+  
+  .reso-details-header{
+    border-bottom: 5px solid  #4B0082;
+  }

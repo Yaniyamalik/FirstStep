@@ -1,0 +1,16 @@
+.resources{
+    margin:0;
+    padding:30px;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    border:5px solid peru;
+
+}
+.resource-img{
+    height:500px;
+    width:500px;
+}
+.resource-img:hover{
+    transform: translateY(200px);
+}

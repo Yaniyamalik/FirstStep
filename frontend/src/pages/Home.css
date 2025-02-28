@@ -1,0 +1,16 @@
+.home-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:600px;
+  width: 100%;
+  border:5px white dotted;
+}
+
+
+/* .home-blog-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+} */
+ 
