@@ -1,9 +1,9 @@
 import asyncHandler from "../utils/asyncHandler.js";
 import { ApiError } from "../utils/ApiError.js";
-import { ApiResponse } from "../utils/ApiResponse.js";
+import { ApiResponse } from "../utils/Apiresponse.js";
 import { User } from "../models/User.model.js";
 import uploadonCloudinary from "../cloudinary.js";
-import jwt from 'jsonwebtoken';  // Fix missing jwt import
+import jwt from 'jsonwebtoken'; // Fix missing jwt import
 
 const generateAccessAndRefereshTokens = async (userId) => {
     try {
